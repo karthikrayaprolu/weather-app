@@ -51,9 +51,7 @@ search.addEventListener('click', () => {
             weatherDetails.classList.add('active');
             erroe404.classList.remove('active');
 
-            setTimeout( () => {
-                container.classList.remove('active');
-            }, 2500);
+            
 
             switch (json.weather[0].main) {
                 case 'Clear':
